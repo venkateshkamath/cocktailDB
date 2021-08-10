@@ -39,11 +39,11 @@ const AppProvider = ({ children }) => {
     } catch (e) {
       console.log(e);
     }
-  },[searchterm]);
+  }, [searchterm]);
   useEffect(() => {
     /* Search for each Letter */
     fetchDrinks();
-  }, [searchterm,fetchDrinks]);
+  }, [searchterm, fetchDrinks]);
   return (
     <AppContext.Provider value={{ loading, cocktails, setSearchterm }}>
       {children}
