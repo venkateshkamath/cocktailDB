@@ -17,7 +17,7 @@ const SearchForm = () => {
     <section onSubmit={(e) => e.preventDefault()} className="section search">
       <form className="search-form">
         <div className="form-control">
-          <label htmlFor="name">Search your favourite drink</label>
+          <label htmlFor="name">Search your favourite cocktail</label>
           <input
             autoComplete="off"
             type="text"

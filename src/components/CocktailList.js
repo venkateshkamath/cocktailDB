@@ -10,7 +10,7 @@ const CocktailList = () => {
     return <Loading />;
   }
   if (cocktails.length === 0) {
-    return <h2 className="section-title">Your Search does not match!!</h2>;
+    return <h2 className="section-title">Your Search does not match our  db!!</h2>;
   }
   return (
     <section className="section">
